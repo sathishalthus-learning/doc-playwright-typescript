@@ -1,0 +1,5 @@
+username,password,expect
+standard_user,secret_sauce,Products
+,,
+
+problem_user,secret_sauce,Products
