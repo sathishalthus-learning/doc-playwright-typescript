@@ -4,4 +4,4 @@
 #### Run Options
 #### Note
 ```
-    * check script section for different run conditions
+    - check script section for different run conditions
