@@ -5,4 +5,3 @@
 #### Note
 ```
     * check script section for different run conditions
-```
