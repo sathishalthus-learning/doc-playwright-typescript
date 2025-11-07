@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "only":"npx playwright test tests/02-playwright-test/annotations/01-focus-test.spec.ts --config playwright.config.ts",
+    "skip":"npx playwright test tests/02-playwright-test/annotations/02-skip-test.spec.ts --config playwright.config.ts",
+    "conditional-skip":"npx playwright test tests/02-playwright-test/annotations/03-conditional-skip-test.spec.ts --config playwright.config.ts",
+    "group-tests":"npx playwright test tests/02-playwright-test/annotations/04-group-tests.spec.ts --config playwright.config.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
