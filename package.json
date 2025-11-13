@@ -10,7 +10,8 @@
     "grouped-tests": "npx playwright test tests/02-playwright-test/annotations/04-group-tests.spec.ts --config playwright.config.ts",
     "tagged-tests": "npx playwright test  --config playwright.config.ts --grep @tag1",
     "annotation-tests": "npx playwright test tests/02-playwright-test/annotations/06-annotate-tests.spec.ts --config playwright.config.ts",
-    "runtime-annotation": "npx playwright test tests/02-playwright-test/annotations/07-runtime-annotate.spec.ts --config playwright.config.ts"
+    "runtime-annotation": "npx playwright test tests/02-playwright-test/annotations/07-runtime-annotate.spec.ts --config playwright.config.ts",
+    "basic-config": "npx playwright test tests/02-playwright-test/configurations/01-basic-config.spec.ts --config tests/configs/pw-basic.config.ts"
   },
   "keywords": [],
   "author": "",
